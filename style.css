@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.container {
+    margin-top: 50px;
+}
+.modal-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+}
+.modal-title {
+    color: #343a40;
+}
+.modal-body {
+    background-color: #fff;
+}
+.form-check-label {
+    font-size: 14px;
+}
+
+/* Custom styles for Slick Slider in "What We Do" section */
+.what-we-do-slider .slide {
+    position: relative;
+}
+.what-we-do-slider .image {
+    display: block;
+    width: 100%;
+}
+.what-we-do-slider .hover-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+.what-we-do-slider .hover-content h3 {
+    margin-bottom: 10px;
+}
+.what-we-do-slider .hover-content p {
+    margin-bottom: 20px;
+}
+
+/* Slick Slider custom styles if needed */
+.slick-prev:before, .slick-next:before {
+    color: black;
+}
+
+/* Custom dot styles */
+.slick-dots li button.custom-dot {
+    background: url('images/reddot.png') no-repeat center center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    border: none;
+    text-indent: -9999px;
+}
+
+.slick-dots li.slick-active button.custom-dot {
+    background: url('images/blackdot.png') no-repeat center center;
+    background-size: contain;
+}
+
+/* Highlight on hover */
+.project-item.highlight {
+    background-color: #f0f0f0;
+    transition: background-color 0.3s ease;
+}
+
+/* Highlight on hover for cards */
+.card:hover {
+    background-color: #f0f0f0;
+    transition: background-color 0.3s ease;
+}
+
+/* Company Growth Section Styles */
+.growth-item {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.growth-item img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.growth-item h3 {
+    margin: 10px 0;
+    font-size: 2rem;
+    color: #333;
+}
+
+.growth-item p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.growth-item:hover {
+    transform: translateY(-10px);
+}
